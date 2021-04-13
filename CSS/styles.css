@@ -1,27 +1,90 @@
 *{
-  box-sizing: border-box;
+  margin: 0cm;
 }
-
 body {
-  background-color:floralwhite;
+  background-color: #ddd;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 15px;
 }
 
 header{
-position: relative;
-background-color: gray;
-
+  width: 100%;
+  height: 100px;
+  background-color: gray;
 }
-
+header nav{
+  padding-top: 15px;
+  padding-left: 20px;
+}
+header nav img{
+  float: left;
+  padding-right: 150px;
+  padding-left: 100px;
+}
 
 header nav ul li {
   display:inline-block;
-  padding: 25px; 
+  padding: 15px;
+  padding-right: 200px;
+  padding-top: 30px;
 }
 
 header nav ul li a{
   text-decoration:none ;
-  color:floralwhite;
+  text-decoration: none;
+  color:black;
+  padding: 15px;
+}
+
+main img{
+  margin: 10px;
+  width: 100%;
+}
+
+main section img{
+  margin: 10px;
+  display: inline-block;
+  width:32.1%;
+}
+
+main article img{
+  float: left;
+  display: inline-block;
+  width: 50%;
+  margin: 8px;
+}
+main article div {
+  padding: 10px;
+  float: right;
+  display: inline-block;
+  width: 45%;
+  margin: 10px;
+}
+
+main article div h2 {
+  padding: 10px;
+  font-size: 30px;
+}
+main article div p {
+  padding: 12px;
+  font-size: 17px;
+}
+
+button{
+  margin: 20px;
+  font-size: 25px;
+  color: #ddd;
+  background-color:black ;
+}
+button:hover{
+  color: #ddd;
+  background-color:gray ;
+}
+footer{
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+  height: 100px;
+  width: 100%;
+  background-color: gray;
 }
