@@ -23,6 +23,7 @@ header nav img{
 }
 
 header nav ul li {
+  font-weight: bolder;
   display:inline-block;
   padding: 15px;
   padding-right: 200px;
@@ -63,6 +64,7 @@ main article div {
 
 main article div h2 {
   padding: 10px;
+  padding-top: 15px;
   font-size: 30px;
 }
 main article div p {
@@ -71,6 +73,7 @@ main article div p {
 }
 
 button{
+  padding:20px;
   margin: 20px;
   font-size: 25px;
   color: #ddd;
@@ -81,7 +84,7 @@ button:hover{
   background-color:gray ;
 }
 footer{
-  padding-top: 40px;
+  padding-top: 48px;
   text-align: center;
   clear: both;
   height: 100px;
